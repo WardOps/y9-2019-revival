@@ -13,7 +13,7 @@ I tested Android 11, 12L, and 14 GSIs. All of them experienced heavy SystemUI la
 Before starting, ensure you have the following ready:
 * A pair of tweezers (for the test point).
 * A MicroSD card (highly recommended to keep the GSI and flashing files separate).
-* Download the necessary repository files (`Code` -> `Download ZIP`).
+* Download the necessary files (links are on the credits file, apparently i can't upload big files here)
 * Android Utility Pro (AUP) installed on your PC.
 * Minimal ADB and Fastboot (or Android Studio Platform Tools) installed.
 
