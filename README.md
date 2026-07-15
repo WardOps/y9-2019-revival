@@ -68,4 +68,5 @@ If done correctly, your phone will boot into Havoc OS with the Play Store and Ma
 
 ## Additional Notes
 For other GSIs that are larger than 3.5GB, please refer to the `resize.md` file in this repository for specific partition resizing instructions.
+
 If you need to downgrade to EMUI 9.0 for some reason, i was following a tutorial that required 9.0 specifically, the software file was really hard to get that i actually had to pay for it (insane). I added the link to the credits.md just in case someone needs it.
