@@ -23,6 +23,8 @@ Before starting, ensure you have the following ready:
 Unlocking the bootloader requires opening the phone and interacting with the motherboard's test points.
 
 1. Open the phone and locate the test point. **Disconnect the battery first**, as having the battery connected at the start of this step can cause issues.
+<img width="350" height="293" alt="image" src="https://github.com/user-attachments/assets/2d8b1cce-6c44-4b00-9295-e1ae8ea67f45" />
+*credits to the guy*
 2. Use tweezers to ground both test points, then plug the phone into your PC.
 3. Open Android Utility Pro (AUP) as Administrator, navigate to the **Huawei** tab, and select **Service**.
 4. In the HiSilicon section, choose **Kirin 710** from the dropdown menu.
