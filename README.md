@@ -26,20 +26,20 @@ Unlocking the bootloader requires opening the phone and interacting with the mot
 <img width="350" height="293" alt="image" src="https://github.com/user-attachments/assets/2d8b1cce-6c44-4b00-9295-e1ae8ea67f45" />
 *credits to the guy*
 
-3. Use tweezers to ground both test points, then plug the phone into your PC.
-4. Open Android Utility Pro (AUP) as Administrator, navigate to the **Huawei** tab, and select **Service**.
-5. In the HiSilicon section, choose **Kirin 710** from the dropdown menu.
-6. Click **Load Factory Fastboot**.
-7. The software will prompt you to redo the test point. Disconnect the phone, ground the points again with the tweezers, and reconnect to the PC. The process will resume.
-8. Once it says "Waiting for device (fastboot)", reconnect the phone's battery. It will connect to the PC successfully. *(If it throws an error, that is fine; we will use ADB commands in the next steps).*
-9. Open Command Prompt on your PC and navigate to your ADB folder.
+2. Use tweezers to ground both test points, then plug the phone into your PC.
+3. Open Android Utility Pro (AUP) as Administrator, navigate to the **Huawei** tab, and select **Service**.
+4. In the HiSilicon section, choose **Kirin 710** from the dropdown menu.
+5. Click **Load Factory Fastboot**.
+6. The software will prompt you to redo the test point. Disconnect the phone, ground the points again with the tweezers, and reconnect to the PC. The process will resume.
+7. Once it says "Waiting for device (fastboot)", reconnect the phone's battery. It will connect to the PC successfully. *(If it throws an error, that is fine; we will use ADB commands in the next steps).*
+8. Open Command Prompt on your PC and navigate to your ADB folder.
    * *Platform Tools path:* `C:\Users\User\AppData\Local\Android\Sdk\platform-tools`
    * *Minimal ADB path:* `C:\Program Files (x86)\Minimal ADB and Fastboot`
-10. Type `fastboot devices` to verify your device is detected. 
-11. Once detected, type `fastboot oem unlock`. On your phone screen, select the option to **Unlock this device and wipe**.
-12. After the device wipes and reboots into EMUI, complete the initial setup. Go to **Settings > About Device** and tap **Build Number** multiple times to enable Developer Options.
-13. Go to **Developer Options** and verify **OEM Unlock** is enabled. If it is greyed out, reboot the phone and connect to Wi-Fi a few times until it unlocks.
-14. Power off the phone. Hold the **Power** and **Volume Down** buttons to boot into Fastboot. You should see "Bootloader Unlocked" and "FRP Unlock" on the screen, indicating success.
+9. Type `fastboot devices` to verify your device is detected. 
+10. Once detected, type `fastboot oem unlock`. On your phone screen, select the option to **Unlock this device and wipe**.
+11. After the device wipes and reboots into EMUI, complete the initial setup. Go to **Settings > About Device** and tap **Build Number** multiple times to enable Developer Options.
+12. Go to **Developer Options** and verify **OEM Unlock** is enabled. If it is greyed out, reboot the phone and connect to Wi-Fi a few times until it unlocks.
+13. Power off the phone. Hold the **Power** and **Volume Down** buttons to boot into Fastboot. You should see "Bootloader Unlocked" and "FRP Unlock" on the screen, indicating success.
 
 ---
 
